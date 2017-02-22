@@ -1,0 +1,35 @@
+{
+  "name": "micro-summarise",
+  "version": "1.0.0",
+  "description": "A microservice to get an article summary from a URL.",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro",
+    "dev": "nodemon --exec \"npm start\" -e \"js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugomd/micro-summarise.git"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "article-parser": "^1.6.11",
+    "micro": "^7.0.6",
+    "nlcst-to-string": "^2.0.0",
+    "node-fetch": "^1.6.3",
+    "retext": "^4.0.0",
+    "retext-keywords": "^3.1.0"
+  },
+  "keywords": [
+    "micro",
+    "article",
+    "summary",
+    "microservice"
+  ],
+  "author": "Hugo Müller-Downing",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hugomd/micro-summarise/issues"
+  },
+  "homepage": "https://github.com/hugomd/micro-summarise#readme"
+}
